@@ -24,7 +24,7 @@ public class DataStore {
         return new Object[][] {
                 {"Rifat", "Florida", 33018},
                 {"Farid", "New York", 12457},
-                {"Ashraf", "Bangladesh", 1207}
+                {"Ashraf", "Bangladesh", 32205}
         };
     }
 

@@ -122,7 +122,7 @@ public class Home extends NavigationBar {
 
     public Home validateTotalMonthlyPayment(String totalMonthlyPayment) {
         LOGGER.debug("Validating the total monthly payment is: " + totalMonthlyPayment);
-        String formattedXpath = String.format("//h3[text()='$%s']", totalMonthlyPayment);
+        String formattedXpath = String.format("//h3[text()='%s']", totalMonthlyPayment);
         AssertThat.elementAssertions(driver, By.xpath(formattedXpath)).elementIsDisplayed();
         return this;
     }
